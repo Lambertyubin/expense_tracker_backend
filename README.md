@@ -13,12 +13,12 @@ My goal was to build an expense tracker for my school alumni association. To ens
 
 ### Backend
 
-- Express.js middleware: [link]
-- API entry routes: [link to routes]
-- Example of Database model with Mongoose: [link]
-- Application logic to retrieve data from the MongoDB database: [link]
-- MongoDB aggregation pipelines:
-- I tested this API's CRUD operations using Postman
+- Express.js middleware: [Click here](https://github.com/Lambertyubin/expense_tracker_backend/blob/main/express.js#L29)
+- API entry routes: [Expense routes](https://github.com/Lambertyubin/expense_tracker_backend/blob/main/routes/expense.routes.js#L7)
+- Example of Database schema with Mongoose: [Expense schema](https://github.com/Lambertyubin/expense_tracker_backend/blob/main/models/expense.model.js#L3)
+- Backend authentication and authorization: [Click here](https://github.com/Lambertyubin/expense_tracker_backend/blob/main/controllers/auth.controller.js#L6)
+- Application logic for CRUD operations with MongoDB database: [Click here](https://github.com/Lambertyubin/expense_tracker_backend/blob/main/controllers/expense.controller.js#L6)
+- Sample MongoDB aggregation pipeline: [Click here](https://github.com/Lambertyubin/expense_tracker_backend/blob/main/controllers/expense.controller.js#L72)
 
 ## Why I built the project this way
 
